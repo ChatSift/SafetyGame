@@ -1,0 +1,12 @@
+account_id = ""
+compatibility_date = "2022-02-06"
+name = "safety-quiz"
+type = "webpack"
+workers_dev = true
+webpack_config = "webpack.config.js"
+
+[env.prod.vars]
+DISCORD_CLIENT_SECRET= ""
+
+[env.dev.vars]
+DISCORD_CLIENT_SECRET= ""
